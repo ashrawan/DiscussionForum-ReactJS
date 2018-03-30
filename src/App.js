@@ -36,7 +36,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <div>
            <Navigation/>
           
