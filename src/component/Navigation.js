@@ -6,9 +6,9 @@ class navigation extends Component {
     render() {
         return (
 <div>
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-sm navbar-light bg-light">
         <Link className="nav-link" to="/"><img src={logo} className="user-img rounded-circle img-fluid" alt="userImage"/></Link>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="nav-ul-div" id="navbarNav">
             <ul className="navbar-nav">
                 <li className="nav-item">
                     <NavLink className="nav-link" to="/" exact>Home
